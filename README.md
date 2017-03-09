@@ -29,6 +29,6 @@ windows用户在安装lxml可能会因为缺少C语言库报错<br>
             authorization=发送者邮箱的smtp授权码
             smtp_server=发送者邮箱的smtp服务器
             smtp_port=smtp服务器端口
-    5. 使用python3.x运行51cto_signup.py。
+    5. 使用python3.x运行login.py。
     6. Enjoy.
     
