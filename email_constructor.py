@@ -25,7 +25,7 @@ class Email(object):
         msg = MIMEMultipart('alternative')
         #msg.attach( MIMEText(self.text, "html", "utf-8"))
         msg.attach(MIMEText(self.text, "plain", "utf-8"))
-        msg['From'] = self._format_add("51cto_constructor脚本 <%s>" % self.from_add)
+        msg['From'] = self._format_add("51cto_signup脚本 <%s>" % self.from_add)
         msg['To'] = self._format_add("管理员 <%s>" % self.to_add)
         msg['Subject'] = Header("51CTO签到", 'utf-8').encode()
         return msg
